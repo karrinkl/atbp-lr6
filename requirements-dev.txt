@@ -1,0 +1,8 @@
+-r requirements.txt
+behave>=1.2.6
+allure-behave>=2.13.5
+allure-pytest>=2.13.5
+pytest>=8.2,<9.0
+pytest-playwright>=0.5.1
+pytest-html>=4.1.1
+playwright>=1.52,<2.0
