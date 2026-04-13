@@ -118,7 +118,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
       - name: Install Playwright browser
-        run: python -m playwright install --with-deps ${{ matrix.browser }}
+        run: python -m playwright install ${{ matrix.browser }}
       - name: Run UI tests
         env:
           PLAYWRIGHT_BROWSER: ${{ matrix.browser }}
